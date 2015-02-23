@@ -3,7 +3,8 @@
 
 ## Main Interface
 
-* real-time map with
+#### real-time map with:
+
 1. driver location
   * units of food (optional unit breakdown: meat/vegan/gluten-free/etc.)
 2. donor location
