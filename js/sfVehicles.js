@@ -15,7 +15,7 @@ var radiusInKm = 10;
 var transitFirebaseRef = new Firebase("https://urbonfood.firebaseio.com/")
 
 // Create a new GeoFire instance, pulling data from the public transit data
-var geoFire = new GeoFire(transitFirebaseRef.child("geofire"));
+var geoFire = new GeoFire(transitFirebaseRef.child("vehicles"));
 
 /*************/
 /*  GEOQUERY */
@@ -36,7 +36,7 @@ geoQuery.on("key_entered", function(vehicleId, vehicleLocation) {
   vehiclesInQuery[vehicleId] = true;
 
   // Look up the vehicle's data in the Transit Open Data Set
-  transitFirebaseRef.child("vehicles").child(vehicleId).once("value", function(dataSnapshot) {
+  transitFirebaseRef..child(vehicleId).once("value", function(dataSnapshot) {
     // Get the vehicle data from the Open Data Set
     vehicle = dataSnapshot.val();
 
