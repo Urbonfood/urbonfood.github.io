@@ -23,3 +23,5 @@
 2. Donor Interface
 3. CommunityCenter Interface
 
+
+## Self organization
