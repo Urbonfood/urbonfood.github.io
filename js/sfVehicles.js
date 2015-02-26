@@ -48,8 +48,8 @@ geoQuery.on("key_entered", function(vehicleId, vehicleLocation) {
 
       // Create a new marker for the vehicle
       //
-     // vehicle.marker = createVehicleMarker(vehicle, getVehicleColor(vehicle));
-      vehicle.marker = createVehicleMarker(vehicle,"#eeeeee");
+     // vehicle.marker = createVehicleMarker(vehicle,"eeeeee");
+      vehicle.marker = createVehicleMarker(vehicle, getVehicleColor(vehicle));
     }
   });
 });
