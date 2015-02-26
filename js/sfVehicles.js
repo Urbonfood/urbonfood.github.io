@@ -9,7 +9,7 @@ var locations = {
 var center = locations["Caltrain"];
 
 // Query radius
-var radiusInKm = 100;
+var radiusInKm = 10;
 
 // Get a reference to the Firebase public transit open data set
 var transitFirebaseRef = new Firebase("https://urbonfood.firebaseio.com/")
