@@ -6,7 +6,7 @@ var locations = {
   "FirebaseHQ": [37.785326, -122.405696],
   "Caltrain": [37.7789, -122.3917]
 };
-var center = locations["FirebaseHQ"];
+var center = locations["Caltrain"];
 
 // Query radius
 var radiusInKm = 0.5;
