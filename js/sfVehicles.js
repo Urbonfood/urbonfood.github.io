@@ -15,7 +15,7 @@ var radiusInKm = 10;
 var transitFirebaseRef = new Firebase("https://urbonfood.firebaseio.com/")
 
 // Create a new GeoFire instance, pulling data from the public transit data
-var geoFire = new GeoFire(transitFirebaseRef.child("vehicles"));
+var geoFire = new GeoFire(transitFirebaseRef.child("geohub"));
 
 /*************/
 /*  GEOQUERY */
