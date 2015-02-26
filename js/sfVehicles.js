@@ -126,7 +126,7 @@ function initializeMap() {
 /* Adds a marker for the inputted vehicle to the map */
 function createVehicleMarker(vehicle, vehicleColor) {
   var marker = new google.maps.Marker({
-    icon: "https://chart.googleapis.com/chart?chst=d_bubble_icon_text_small&chld=" + vehicle.vtype + "|bbT|" + vehicle.routeTag + "|" + vehicleColor + "|eee",
+    icon: "https://chart.googleapis.com/chart?chst=d_bubble_icon_text_small&chld=" + vehicle.vtype + "|bbT|" + vehicle.routeTag + "|" + "50B1FF" + "|eee",
     position: new google.maps.LatLng(vehicle.lat, vehicle.lon),
     optimized: true,
     map: map
