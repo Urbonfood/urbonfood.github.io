@@ -1,6 +1,6 @@
 // Global map variable
 var map;
-
+  
 // Set the center as Firebase HQ
 var locations = {
   "FirebaseHQ": [37.785326, -122.405696],
