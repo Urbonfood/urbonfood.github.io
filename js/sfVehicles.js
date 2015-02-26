@@ -36,7 +36,7 @@ geoQuery.on("key_entered", function(vehicleId, vehicleLocation) {
   vehiclesInQuery[vehicleId] = true;
 
   // Look up the vehicle's data in the Transit Open Data Set
-  transitFirebaseRef..child(vehicleId).once("value", function(dataSnapshot) {
+  transitFirebaseRef.child(vehicleId).once("value", function(dataSnapshot) {
     // Get the vehicle data from the Open Data Set
     vehicle = dataSnapshot.val();
 
