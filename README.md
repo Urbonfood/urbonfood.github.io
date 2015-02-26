@@ -24,3 +24,5 @@
 
 
 ## Self organization
+
+## Giving Money to fuel this process
