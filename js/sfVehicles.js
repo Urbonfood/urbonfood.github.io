@@ -138,7 +138,7 @@ function createVehicleMarker(vehicle, vehicleColor) {
 
 /* Returns a blue color code for outbound vehicles or a red color code for inbound vehicles */
 function getVehicleColor(vehicle) {
-  return ((vehicle.dirTag && vehicle.dirTag.indexOf("OB") > -1) ? "50B1FF" : "FF6450");
+  return "FF6450";
 }
 
 /* Returns true if the two inputted coordinates are approximately equivalent */
