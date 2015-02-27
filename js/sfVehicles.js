@@ -4,9 +4,10 @@ var map;
 // Set the center as Firebase HQ
 var locations = {
   "FirebaseHQ": [37.785326, -122.405696],
-  "Caltrain": [37.7789, -122.3917]
+  "Caltrain": [37.7789, -122.3917],
+  "C4ANLC": [37.7242046,-122.4059457]
 };
-var center = locations["Caltrain"];
+var center = locations["C4ANLC"];
 
 // Query radius
 var radiusInKm = 1;
